@@ -1,3 +1,39 @@
+## 14.0.1
+
+_released `0000-00-00`_
+
+**TESTING ONLY - THIS IS NOT A REAL PLATFORM RELEASE **
+https://github.com/iscorer/test-repo/edit/main/CHANGELOG.md
+
+Version `14.0.1` is a FICTIONAL version created in a DUMMY CHANGELOG.md for TESTING purposes. Breaking change release that contains several important upgrades and deprecations. Here is a brief breakdown of the changes (**:exclamation: denotes a breaking change**):
+
+### cli
+
+* :exclamation: Implement individual field flags for `register` command ([#618](https://github.com/zapier/zapier-platform/pull/618))
+* :exclamation: Block `promote`, `upload`, and `push` for missing required app info ([#612](https://github.com/zapier/zapier-platform/pull/612))
+* :nail_care: Use uniform field names in check-missing-app-info util ([#630](https://github.com/zapier/zapier-platform/pull/630))
+* :nail_care: Only require fields for private integrations via CLI ([#628](https://github.com/zapier/zapier-platform/pull/628))
+* :nail_care: Implement `--yes` flag for `register` command ([#627](https://github.com/zapier/zapier-platform/pull/627))
+* :scroll: Improve documentation on throttling ([#631](https://github.com/zapier/zapier-platform/pull/631))
+* :scroll: Add documentation for PKCE OAuth2 ([#629](https://github.com/zapier/zapier-platform/pull/629))
+* :scroll: Add information about how to return line items ([#620](https://github.com/zapier/zapier-platform/pull/620))
+* :scroll: Fix 'integraiton' typo in CLI docs ([#613](https://github.com/zapier/zapier-platform/pull/613))
+
+### core
+
+* :hammer: bump http-cache-semantics from 4.1.0 to 4.1.1 ([#617](https://github.com/zapier/zapier-platform/pull/617))
+
+### schema
+
+* :tada: Add `enablePkce` to `oauth2Config` ([#623](https://github.com/zapier/zapier-platform/pull/623))
+* :hammer: `searchAndCreates` and `searchOrCreates` can coexist to avoid search key collision ([#624](https://github.com/zapier/zapier-platform/pull/624))
+* :scroll: Add clarity on role of `performList` for testing REST Hooks ([#619](https://github.com/zapier/zapier-platform/pull/619))
+
+### misc
+
+* :scroll: Small followup improvement on GitHub issue templates ([#625](https://github.com/zapier/zapier-platform/pull/625))
+* :scroll: Replace issue templates with GitHub forms, update CODEOWNERS ([#622](https://github.com/zapier/zapier-platform/pull/622))
+
 ## 14.0.0
 
 _released `2023-03-21`_
